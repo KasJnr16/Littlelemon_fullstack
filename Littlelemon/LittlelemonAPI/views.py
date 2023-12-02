@@ -59,5 +59,3 @@ def menuView(request, pk = None):
         else:
             return Response({"message":f"error {menu_serializer.errors}"}, status=status.HTTP_400_BAD_REQUEST)
 
-
-# Create your views here.

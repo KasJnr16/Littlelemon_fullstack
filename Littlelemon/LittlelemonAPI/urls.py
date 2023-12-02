@@ -5,7 +5,6 @@ from .views import(
     menuView,
 )
 
-
 urlpatterns = [
     path("auth-user",obtain_auth_token),
     path("booking",bookingView, name="booking"),
