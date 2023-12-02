@@ -8,7 +8,7 @@ from .views import(
 urlpatterns = [
     path("auth-user",obtain_auth_token),
     path("booking",bookingView, name="booking"),
-    path("menu/",menuView,name="menu"),
-    path("menu/<int:pk>",menuView,name="menu"),
+    path("menu-items/",menuView,name="menu"),
+    path("menu-items/<int:pk>",menuView,name="menu-detail"),
 
 ]
