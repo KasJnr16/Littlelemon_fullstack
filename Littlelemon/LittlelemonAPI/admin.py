@@ -4,7 +4,6 @@ from .models import(
     BookingAPI,
 )
 
-
 # Register your models here.
 admin.site.register(BookingAPI)
 admin.site.register(MenuAPI)
